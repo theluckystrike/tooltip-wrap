@@ -1,0 +1,8 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.zovo.tooltipwrap.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": ["ClientTextTooltipAccessor", "GuiGraphicsExtractorMixin"],
+	"injectors": { "defaultRequire": 1 }
+}

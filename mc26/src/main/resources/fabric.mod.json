@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "tooltip-wrap",
+	"version": "${version}",
+	"name": "Tooltip Wrap",
+	"description": "Long tooltips wrap onto more lines so the whole tooltip stays on screen, at any GUI scale and window size. Client side only.",
+	"authors": ["theluckystrike"],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/tooltip-wrap",
+		"sources": "https://github.com/theluckystrike/tooltip-wrap",
+		"issues": "https://github.com/theluckystrike/tooltip-wrap/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/tooltip-wrap/icon.png",
+	"environment": "client",
+	"entrypoints": { "client": ["com.zovo.tooltipwrap.TooltipWrapClient"] },
+	"mixins": ["tooltip-wrap.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.17.0",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}

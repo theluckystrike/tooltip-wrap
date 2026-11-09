@@ -1,0 +1,7 @@
+mode,position,screen_width,box_left,box_right,text_width,text_height,on_screen
+vanilla,left,427,0,542,534,38,false
+vanilla,middle,427,0,542,534,38,false
+vanilla,right,427,0,542,534,38,false
+with-mod,left,427,38,418,372,48,true
+with-mod,middle,427,221,426,197,78,true
+with-mod,right,427,9,389,372,48,true

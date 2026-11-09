@@ -1,0 +1,10 @@
+{
+	"schemaVersion": 1,
+	"id": "tooltip-wrap-test",
+	"version": "1.0.0",
+	"name": "Tooltip Wrap game test",
+	"environment": "*",
+	"entrypoints": { "fabric-client-gametest": ["com.zovo.tooltipwrap.test.TooltipWrapClientGameTest"] },
+	"mixins": ["tooltip-wrap-test.mixins.json"],
+	"depends": { "tooltip-wrap": "*" }
+}
